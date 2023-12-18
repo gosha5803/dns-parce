@@ -1,0 +1,28 @@
+{
+  "name": "parcing",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "chalk": "^5.3.0",
+    "cherio": "^1.0.0-rc.2",
+    "convert-array-to-csv": "^2.0.0",
+    "csv": "^6.3.6",
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^21.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "transliteration": "^2.3.5"
+  }
+}
